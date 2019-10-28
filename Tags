@@ -1,0 +1,19 @@
+<head> generally contains the title</head>
+
+<sub>23</sub>     <sup>32</sup>
+sub: under, sup: over the line
+
+<br>//a break between tags, do not need to close
+
+<hr>horizontal rule': a <b>horizontal</b> line to seperate tags, do not need to close
+<p>(a paragraph/ <b>sentence</b> of any lenght. can be repeated and needs to be closed once done</p>
+
+<b>horizontal</b>
+bold
+<strong>little</strong>
+bold but puts emphasis for softwares that read the page
+
+
+
+Addotopnal tags:
+https://www.w3schools.com/tags/
