@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Forms</title>
+	</head>
+	<body>
+		<h2>Please fill the damn form</h2>
+		<form method="POST" action="mailto:saygin.guven@itdcanada.ca" enctype="text/plain">
+			Full Name<br>
+			<!--placeholder gives a type of hint for user to know what goes into that cell-->	
+			<input type="text" name="fullName" placeholder="John Hoe"><br>
+			Email<br>
+			<input type="email" name="Email" placeholder="john.hoe@gmail.com"><br>
+			Phone Number <br>
+			<input type="tel" name="PhoneNumber" placeholder="(604)123-4569"> <br>
+			Address <br>
+			<input type="text" name="address" placeholder="457 Granville st, Vancouver"><br>
+			Message <br>
+			<textarea rows="5" cols="60" name="comment" placeholder="Enter text here meow..."></textarea><br>
+			<input type="submit" value="Submit">
+		</form>
+		<br>
+		<hr>
+		<!--hr horizontal rule _______ straight line, amigo-->
+		<h2>Attributes</h2>
+		<form><!--autofocus brings the cursor to that particular section of the page-->
+			<input type="text" name="..." autofocus><br>
+			<input type="text" name="..." autocomplete="off"><br>
+			<!--autocomplete helps you to fill (or when off, not fill) that cell-->
+			<input type="text" name="..." style="direction:RTL"><br>
+			<!--value inputs a certain things into the cell, while saying disabled turns off input for that particular cell-->
+			<input type="number" value="150" disabled>
+			<input type="button" formtarget="_blank" value="Submit"><br>
+			<input style="height:25px; width:50%;">
+		</form>
+		<br>
+		<hr>
+
+		<h2>Data List</h2>
+		<form>
+			<input list="browsers" name="browsers" placeholder="Meow">
+			<datalist id="browsers">
+				<option value=" Internet Explorer">
+				<option value="Firefox">
+				<option value="Chrome">
+				<option value="Opera">
+				<option value="Safari">
+			</datalist>
+			<input type="submit">
+		</form>
+		<br>
+		<hr>
+
+		<h2>Drop Down</h2>
+		<form>
+			<select name="dropdown">
+				<option value="Web Development" selected> Web Development</option>
+				<option value="Open Source">Open Source</option>
+				<option value="Embedded Programming">Embedded Programming</option>
+				<option value="Game Developer">Game Developer </option>
+				<option value="Network Administrator">Network Administrator</option>
+			</select>
+
+		</form>
+
+
+		<br>
+		<hr>
+
+		<h2>Login</h2>
+		<form>
+			<div>
+				<label for="user_name">User Name Meow:</label>
+				<input type="text" name="user_name" style="direction:RTL" placeholder="...woeM">
+			</div>
+			<div><
+				<label for="password">Password Meow:</label>
+				<input type="password" name="password" placeholder="Meow...">
+			</div>
+		</form>
+		<br>
+		<hr>
+
+
+		<h2>Checkbox!</h2>
+		<form>
+			<input type="Checkbox" name="html5" checked> HTML5
+			<input type="Checkbox" name="css3" checked> CSS3
+			<input type="Checkbox" name="Javascript"> Javascript
+			<input type="Checkbox" name="Bootsrapt"> Bootstrap
+			<input type="checkbox" name="Meow"> Meoww
+		</form>
+
+		<br>
+		<hr>
+		<h2>Radio</h2>
+
+		<form>
+			<!--radio only allows you to have one option like, male or female-->
+			<!--make sure the name="" in the radio are the same in order to ONLY have 1 option in total-->
+			<input type="Radio" name="prince"> Meow
+			<input type="radio" name="prince"> Not Meow
+			<input type="radio" name="prince"> Rather not say
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<a href="#top">Top</a>
+		</form>
+		<br>
+		<hr>
+		<form>
+			<input type="file" name="fileupload" accept="image/*"/>
+			<!--the above is used to upload a file, in this case, an image-->
+		</form>
+	</body>
+</html>
