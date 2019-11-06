@@ -1,0 +1,55 @@
+a{
+  text-decoration: none;
+
+}
+#fb{ 
+	width: 300px; 
+	height: 300px; 
+}
+#ig{ 
+	width: 300px; 
+	height: 300px; 
+}
+#link{ 
+	width: 300px; 
+	height: 300px; 
+}
+#ashe{ 
+	width: 600px; 
+	height: 470px; 
+}
+#meow{ 
+	width: 600px; 
+	height: 470px; 
+}
+#logo{ 
+	width: 700px; 
+	height: 470px; 
+}
+ li{
+   display: inline;
+   list-style-type: none;
+   border-right: 1px solid black;
+   padding: 5px;
+ }
+
+ header{
+ 	text-align: center;
+ }
+ table, td, td{
+ 	border:2px solid black;
+ }
+ th{
+ 	padding:5px;
+ 	background-color: gray;  
+ }
+ td{
+ 	padding:5px;
+ }
+ table{
+ 	padding: 3px;
+ 	border-spacing: 2px;
+ }
+#ig,#fb,#link{
+ 	margin: 10;
+ }
