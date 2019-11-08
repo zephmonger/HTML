@@ -1,5 +1,5 @@
 
-console.log("Can't stop, wont stop!");
+alert("If I were you, I would check the console[F12]");
 
 
 
@@ -62,118 +62,7 @@ console.log("Can't stop, wont stop!");
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-console.log("Haha!! Funny guy!");
-console.log("I was wondering where you left these :P");
-console.log("Have a good long weekend!!?!")
-console.log("I really enjoyed the mid-term today!")
+console.log("Delete line 12, close the comment on line 7");
+console.log("The images shlould be inside the image folder");
+console.log("the Path of the images are correct? the name of the image is corret too?")
+console.log("I Think your Css is not linked properly.")
