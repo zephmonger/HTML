@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<title>Event Listener</title>
+
+ 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<body>
+		<h2>Function 1</h2>
+		<p>Click the button to demonstrate the prompt box</p>
+		<button onclick="myFunction()">Try itt</button>
+		<p id="insert"></p>
+		<br><hr>
+
+		<!--LI is a child of UL-->
+		<h2>Function 2</h2>
+		<ul>
+			<li>Bread</li>
+			<li>Cheesecake</li>
+		</ul>
+		<p>Click button to change the properties of the first item (index 0).</p>
+		<button onclick="myfunction1()"> Things will get weird</button>
+		<button onclick="myfunction2()"> Things maybe will get weird</button>
+		<br><hr>
+
+		<h2>Function 3</h2>
+
+		<div id="change">
+			<p class="child">Blasdsakdh askhasdsahd something something darkside</p>
+			<p class="child">This is a P tagr</p>
+			<p> This P tag has a span tag inside of it <span class="child">with the same class as the P tags</span></p>
+		</div>
+		<p>Click the button to change the background colour of all the elements with the class="child" text throught css</p>
+		<!--Class is for a group of items sharing the same class and can be given to multiple elements, where as id tag can only be given to one element-->
+		<button onclick="changecolor()">Try it</button>
+		<p><strong>Note:</strong> The getElementsByClassName() method is not supported in Explorer 8 and earlier versions :(</p><br><hr>
+
+		<h2>Function 4</h2>
+		<button onclick="insert()">Press me!</button><br>
+		<a href="#top">Top</a><hr>
+
+		<!--On Click is an EVENT LISTENER-->
+		<h2>function 5</h2>
+		<p>Enter your name:</p>
+		<!-- ONBLUR works as an event listener. once you leave the input field -->
+		<input type="text" id="fname" onblur="toUp()">
+		<p>When you leave the input field, a functon is triggered which transforms the input text to upper case.</p><br>
+		<a href="#top">Top</a><hr>
+
+		<h2>Function 6</h2>
+		<p>Select a new car from the list.</p>
+		<select id="mySelect" onchange="onChange()">
+			<option value="Audi">Audi
+			<option value="BMW">BMW
+			<option value="Mercedes">Mercedes
+			<option value="Volvo">Volvo
+		</select>
+		<p>When you select a new car, a function is triggered which outputs the value of the selected car</p>
+		<p id="changed"></p><br><hr>
+
+		<h2>Function 7</h2>
+		<img src="" onerror="aboard()">
+
+		<br><hr>
+	
+		<h2>Function 8</h2>
+		<input type="text" onfocus="toYellow(this)">
+		<p>When the input field gets focus, a function is triggered which changes teh background-color.</p><br><hr>
+
+		<h2>Function 9</h2>
+		<p>A function is triggered when the user presses a in the input field.</p>
+		<input type="" onkeydown="keyDown()" name="">
+		<!--keydown  -  keyup  -  keypress for further event listeners-->
+		<br><hr>
+
+		<h2>Function 10</h2>
+		<!--onmousedown  -  onmouseup
+
+
+		<a href="#top">Top</a>
+		<script src="js/main.js"></script>
+	</body>
+</html>
