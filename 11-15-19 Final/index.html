@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!--BOOTSTRAP CSS-------------->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <!--MY CSS----------------->
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <title>HTML Final</title>
+      <!--START OF FAVICON---->
+      <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+      <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+      <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+      <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+      <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+      <link rel="manifest" href="favicon/manifest.json">
+      <meta name="msapplication-TileColor" content="#ffffff">
+      <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+      <meta name="theme-color" content="#ffffff">
+   </head>
+   <body>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark stiky-top">
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+               <li class="nav-item active">
+                  <a class="nav-link" href="#Top">Top<span class="sr-only">(current)</span></a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#geom">Geometry </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#fahren">Fahrenheit to...</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#radios">Questions of a lifetime</a>
+               </li>
+            </ul>
+         </div>
+      </nav>
+      <h2 id="geom">Geometry Calculations</h2>
+      <p>Please enter your hours worked and your current hourly rate in the foloowing field</p>
+      <br>
+      <label>Weekly hours worked</label>
+      <input id="hw" type="number" name="hour">
+      <label>Hourly rate</label>
+      <input id="hr" type="number" name="hours"><br>
+      <button onclick="magic()">Calculate</button>
+      <p id="paystub"></p>
+      <br> <br> 
+      <hr>
+      <h2 id="fahren">Fahrenheit to Celsius</h2>
+      <p>Please input the Fahrenheit you would like to convert :)</p>
+      <label>Fahrenheit</label>
+      <input id="conman" type="number" name="converting">
+      <button onclick="convert()">Convert</button>
+      <p id="flip"></p>
+      <br> <br> 
+      <hr>
+      <h2 id="radios">Questions of a lifetime</h2>
+      <div id="div1">
+         <label>if (and when) an Alien Invasion happens, what should you do?</label><br>
+         <label>Dig a hole and hope they don't see you?</label>
+         <input id="guess" type="radio" name="hehe"><br>
+         <label>Shoot them with your Ray Gun?</label>
+         <input id="guess1" type="radio" name="hehe"><br>
+         <label>Maybe they need a hug?</label>
+         <input id="guess2" type="radio" name="hehe"><br>
+         <label>Volunteer to become their slaves?</label>
+         <input id="guess3" type="radio" name="hehe"><br>
+         <hr>
+         <label>If you were to buy a Gaming laptop, what should you purchase?</label><br>
+         <label>Buy one of them AlienWare?</label>
+         <input id="gues" type="radio" name="huehue"><br>
+         <label>Get one of them silliy willy MSi's?</label>
+         <input id="gues1" type="radio" name="huehue"><br>
+         <label>Acquire ROG Zephyrus GX531GS-AH76 15.6?</label>
+         <input id="gues2" type="radio" name="huehue"><br>
+         <label>Join the wrong side and be the owner of an Acer Predator?</label>
+         <input id="gues3" type="radio" name="huehue"><br>
+         <hr>
+         <button onclick="poop()">Time of truth.</button>
+         <p id="pooping"></p>
+      </div>
+      <!--BOOTSTRAP JAVASCRIPT------------>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <!--MY JAVASCRIPT------------->
+      <script src="js/main.js"></script>
+   </body>
+</html>
