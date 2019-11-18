@@ -1,0 +1,47 @@
+body{
+	font-weight: bold;
+}
+div .content {
+	color: blue;	
+}
+div.content {
+	color: purple;
+	
+}
+p#demo::first-line {
+	color: #ff0000;
+  	font-variant: small-caps;
+}
+/*CHILD OF ARTICLE*/
+/**/
+article > p{
+	color: tomato;
+}
+/*DESCENDANT OF ARTICLE*/
+/*article p {
+	color:orange;
+}*/
+
+/*The first sibling following your main tag's line*/
+aside + p{
+	background-color: lightgreen; 
+}
+/*ALL THE SIBLINGS TAGS FOLLOWING THE FIRST SIBLING TAG*/
+header ~ p{
+	background-color: lightblue;
+}
+a:hover{
+	background-color: green;
+	color: red;
+	text-decoration: none;
+}
+h2:hover{
+	background-color:#ff0000;;
+}
+/* HOVER CHANGES WHAT HAPPENS ONCE THE MOUSE GOES OVER IT*/
+a{
+	text-decoration: none;
+}
+p#demon:hover{
+	cursor: pointer;
+}
