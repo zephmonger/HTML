@@ -1,0 +1,119 @@
+.abovenav{
+	background-color: black;
+	color: white;
+	position: relative;
+	width: 100%;
+    height: 100px;
+    margin:0px;
+}
+#quizp{
+	width: 70px;
+    height: 90px;
+}
+#mid{
+	background-color: lightgrey;
+	height: 400px;
+	width: 100%;
+}
+.mid1{
+	margin-top: 60px;
+}
+
+#below{
+	width: 100%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.paris{
+	width: 400px;
+	height:300px;
+	margin-top: 60px;
+	border-style: outset;
+	text-shadow: 2px 2px 5px grey;
+	padding: 0px;
+}
+.readmr{
+	margin-right: 25px;
+}
+.quizw{
+	width: 120px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.topof{
+	height: 100px;
+	width: 300px;
+    display: flex;
+    text-align: left;
+    padding-bottom: 10px;
+    position: relative;
+    margin-left:100px;        
+}
+.article{
+    display: inline-block;
+    margin: 0px;
+    color: white;
+    line-height: 1.5em;
+    border-right: 1px solid white;
+    padding: 20px 20px 20px 20px;
+}
+.article:after {
+    border-right: 1px solid white;
+    height: 200px;
+}
+.none{
+   border: none;
+}
+.pic1{
+    margin: 30px;
+	border-style: outset;
+	text-shadow: 2px 2px 5px grey;
+    width: 150px;
+    height: 200px;
+}
+.pic2{
+    margin: 30px;
+	border-style: outset;
+	text-shadow: 2px 2px 5px grey;
+    width: 150px;
+    height: 200px;
+}
+.pic3{
+    margin: 30px;
+	border-style: outset;
+	text-shadow: 2px 2px 5px grey;
+    width: 150px;
+    height: 200px;
+}
+.pic4{
+    margin: 30px;
+	border-style: outset;
+	text-shadow: 2px 2px 5px grey;
+    width: 150px;
+    height: 200px;
+}
+ #main_bottom {
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    background-color: crimson;
+    color: white;
+}
+footer small {
+    line-height: 40px;
+    height: 40px;
+}
+.section {
+    width: 200px;
+    height: 180px;
+    padding: 20px;
+}
+#button{
+	align-content: right;
+	position: relative;
+	left: 350px;
+}
